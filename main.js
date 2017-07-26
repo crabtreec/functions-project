@@ -75,6 +75,14 @@ getLength("Hello World")
 // and returns `true` if the second parameter is greater than the first.
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
+function greaterThan(a, b){
+  if (b > a) {
+    return true;
+  } else {
+    return false;
+  }
+}
+greaterThan(4, 8)
 
 
 
@@ -84,7 +92,10 @@ getLength("Hello World")
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 // Then, write and example of using the function.
-
+function greet(name){
+  return "Hello, " + name;
+}
+greet("Chad")
 
 
 // 9.
