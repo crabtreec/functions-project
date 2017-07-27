@@ -106,3 +106,7 @@ greet("Chad")
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+function madlib(a, b, c, d){
+  return "A " + a + " brown " + b + " jumps " + c + " the " + d + ".";
+}
+madlib("quick", "fox", "over", "fence")
